@@ -160,7 +160,6 @@ def main() -> None:
 
     LOG.info(inspection_string)
 
-
     LOG.info("-------------------------------")
     LOG.info("03. CHECK data quality.")
     LOG.info("-------------------------------")
@@ -185,7 +184,6 @@ def main() -> None:
 
     LOG.info(f"\nMissing values:\n{missing_counts}")
 
-
     # Call the imported function get_duplicate_count()
     # to count duplicate rows.
     # Pass in the df and the logger.
@@ -208,7 +206,6 @@ def main() -> None:
         CHART_DIR / "missing-values.png",
     )
 
-
     LOG.info("-------------------------------")
     LOG.info("04. DESCRIBE numeric variables.")
     LOG.info("-------------------------------")
@@ -220,7 +217,6 @@ def main() -> None:
     )
 
     LOG.info(f"\n{numeric_summary.to_string()}")
-
 
     LOG.info("-------------------------------")
     LOG.info("05. VISUALIZE distributions.")
@@ -255,7 +251,6 @@ def main() -> None:
             CHART_DIR / f"{column}-distribution.png",
         )
 
-
     LOG.info("-------------------------------")
     LOG.info("06. EXPLORE spending by category.")
     LOG.info("-------------------------------")
@@ -282,7 +277,6 @@ def main() -> None:
         spending_ax,
         CHART_DIR / "total-spending-by-category.png",
     )
-
 
     LOG.info("-------------------------------")
     LOG.info("07. SUMMARIZE what you found.")

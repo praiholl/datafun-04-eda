@@ -73,11 +73,12 @@ def load_data(
 
     return df
 
+
 def load_csv_data(
     *,
     file_path: str,
     log: logging.Logger,
-) ->pd.Dataframe:
+) -> pd.Dataframe:
     """Load a CSV file and return the DataFrame."""
 
     log.info(msg=f"Loading CSV file: {file_path}")
@@ -87,6 +88,7 @@ def load_csv_data(
     log.info(msg=f"Loaded: {df.shape[0]} rows, {df.shape[1]} columns")
 
     return df
+
 
 # === INSPECT DATA ===
 
