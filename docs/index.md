@@ -33,7 +33,7 @@ to get a project like this running on your machine.
 
 ## Produced Artifacts
 
-- - [**Jupyter Notebook**](https://github.com/praiholl/datafun-04-eda/blob/main/notebooks/eda_holly.ipynb)
+- [**Jupyter Notebook**](https://github.com/praiholl/datafun-04-eda/blob/main/notebooks/eda_holly.ipynb)
 - [**Data Card**](./data-card.md)
 
 ## Initial Results
